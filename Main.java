@@ -94,9 +94,11 @@ public class Main{
         ps.removeEmployee(n);
         System.out.println("After removing the employee remaining employees are:");
         ps.displayEmployee();
+        sc.close();
     }
 
 }
+
 
 
   
